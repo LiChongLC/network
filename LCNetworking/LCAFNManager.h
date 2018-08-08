@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+
+//jiale ceshi
 
 extern  NSString * const LCAFNetworkReachabilityNotificationKey;
 extern  NSString * const LCAFNetworkReachabilityStatusKey;
