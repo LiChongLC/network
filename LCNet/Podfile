@@ -1,0 +1,6 @@
+#project 'LCNet.project'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+target 'LCNet' do
+pod 'AFNetworking'
+end
