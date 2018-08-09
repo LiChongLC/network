@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LCNetworking"
-  s.version      = "1.1.3"
+  s.version      = "1.1.4"
   s.summary      = "LCNetworking for use AFN "
 
   # This description is used to generate tags and improve search results.
