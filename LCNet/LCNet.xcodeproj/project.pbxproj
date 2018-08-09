@@ -16,8 +16,8 @@
 		FA885A7D211AC97F006BE688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885A7C211AC97F006BE688 /* main.m */; };
 		FA885A87211AC980006BE688 /* LCNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885A86211AC980006BE688 /* LCNetTests.m */; };
 		FA885A92211AC980006BE688 /* LCNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885A91211AC980006BE688 /* LCNetUITests.m */; };
-		FA885AA5211AC999006BE688 /* LCAFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885AA1211AC998006BE688 /* LCAFNManager.m */; };
-		FA885AA6211AC999006BE688 /* NSDictionary+LCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885AA3211AC998006BE688 /* NSDictionary+LCExtension.m */; };
+		FA885AAC211BD03D006BE688 /* LCAFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885AA8211BD03C006BE688 /* LCAFNManager.m */; };
+		FA885AAD211BD03D006BE688 /* NSDictionary+LCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA885AAA211BD03C006BE688 /* NSDictionary+LCExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,10 @@
 		FA885A8D211AC980006BE688 /* LCNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA885A91211AC980006BE688 /* LCNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNetUITests.m; sourceTree = "<group>"; };
 		FA885A93211AC980006BE688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA885AA1211AC998006BE688 /* LCAFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAFNManager.m; sourceTree = "<group>"; };
-		FA885AA2211AC998006BE688 /* NSDictionary+LCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LCExtension.h"; sourceTree = "<group>"; };
-		FA885AA3211AC998006BE688 /* NSDictionary+LCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LCExtension.m"; sourceTree = "<group>"; };
-		FA885AA4211AC998006BE688 /* LCAFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAFNManager.h; sourceTree = "<group>"; };
+		FA885AA8211BD03C006BE688 /* LCAFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAFNManager.m; sourceTree = "<group>"; };
+		FA885AA9211BD03C006BE688 /* NSDictionary+LCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LCExtension.h"; sourceTree = "<group>"; };
+		FA885AAA211BD03C006BE688 /* NSDictionary+LCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LCExtension.m"; sourceTree = "<group>"; };
+		FA885AAB211BD03C006BE688 /* LCAFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAFNManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		FA885A6C211AC97E006BE688 /* LCNet */ = {
 			isa = PBXGroup;
 			children = (
-				FA885A9F211AC998006BE688 /* LCNetworking */,
+				FA885AA7211BD03C006BE688 /* LCNetworking */,
 				FA885A6D211AC97E006BE688 /* AppDelegate.h */,
 				FA885A6E211AC97E006BE688 /* AppDelegate.m */,
 				FA885A70211AC97E006BE688 /* ViewController.h */,
@@ -163,17 +163,16 @@
 			path = LCNetUITests;
 			sourceTree = "<group>";
 		};
-		FA885A9F211AC998006BE688 /* LCNetworking */ = {
+		FA885AA7211BD03C006BE688 /* LCNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				FA885AA1211AC998006BE688 /* LCAFNManager.m */,
-				FA885AA2211AC998006BE688 /* NSDictionary+LCExtension.h */,
-				FA885AA3211AC998006BE688 /* NSDictionary+LCExtension.m */,
-				FA885AA4211AC998006BE688 /* LCAFNManager.h */,
+				FA885AA8211BD03C006BE688 /* LCAFNManager.m */,
+				FA885AA9211BD03C006BE688 /* NSDictionary+LCExtension.h */,
+				FA885AAA211BD03C006BE688 /* NSDictionary+LCExtension.m */,
+				FA885AAB211BD03C006BE688 /* LCAFNManager.h */,
 			);
-			name = LCNetworking;
-			path = ../../LCNetworking;
-			sourceTree = "<group>";
+			path = LCNetworking;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -327,11 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA885AA5211AC999006BE688 /* LCAFNManager.m in Sources */,
+				FA885AAC211BD03D006BE688 /* LCAFNManager.m in Sources */,
 				FA885A72211AC97E006BE688 /* ViewController.m in Sources */,
 				FA885A7D211AC97F006BE688 /* main.m in Sources */,
 				FA885A6F211AC97E006BE688 /* AppDelegate.m in Sources */,
-				FA885AA6211AC999006BE688 /* NSDictionary+LCExtension.m in Sources */,
+				FA885AAD211BD03D006BE688 /* NSDictionary+LCExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
