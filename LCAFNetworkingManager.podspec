@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LCAFNetworkingManager"
-  s.version      = "1.1.5"
+  s.version      = "2.1.1"
   s.summary      = "LCNetworking for use AFN "
 
   # This description is used to generate tags and improve search results.
